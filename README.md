@@ -1,4 +1,4 @@
-# detection-engineering-portfolio
+# Security Engineering Portfolio
 
 Detection engineering, threat hunting, and identity/cloud security work — built primarily on Microsoft Defender XDR, Sentinel, Entra ID, and Azure.
 
@@ -9,6 +9,9 @@ I focus on closing the loop between threat intelligence, hunting, and detection 
 | Case Study | Focus | ATT&CK |
 |---|---|---|
 | [Detecting a Nested QR-Code Phishing Campaign](case-studies/quishing-detection-nested-eml-pdf.md) | Custom Defender XDR detection for a nested `.eml`/PDF quishing evasion technique that bypassed native QR scanning | T1566.001 |
+| [Business Email Compromise: Inbox Rule Discovery to Reusable Root-Cause Tooling](case-studies/bec-inbox-rule-root-cause.md) | Five-vector BEC root-cause investigation, plus a reusable investigation notebook and Sentinel workbook built from it | T1114.003, T1098, T1556 |
+
+*More case studies in progress — PAN-OS GlobalProtect exploit detection, Copilot Studio governance.*
 
 ## Core Skills
 
