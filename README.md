@@ -13,12 +13,21 @@ I focus on closing the loop between threat intelligence, hunting, and detection 
 
 *More case studies in progress — PAN-OS GlobalProtect exploit detection, Copilot Studio governance.*
 
+## AI Security Governance & Tooling
+
+| Project | Focus |
+| --- | --- |
+| [AI TRiSM Implementation Guide](case-studies/ai-trism-implementation-guide.md) | Maps Gartner's AI TRiSM framework to specific Microsoft Defender XDR and Purview capabilities for Azure AI Foundry agents, with a phased implementation plan and MAESTRO-layer-to-tooling crosswalk |
+| [Combined STRIDE + MAESTRO Threat Model Template](case-studies/stride-maestro-threat-model-template.md) | Reusable threat-modeling template for agentic AI systems — MAESTRO's seven layers decompose the attack surface, STRIDE applies systematically within each, pre-populated threats mapped to MITRE ATT&CK/ATLAS |
+| [pan_rule_validator](https://github.com/wendyrojas7-cyber/pan_rule_validator) | Python automation tool for Panorama firewall rulebase validation — deterministic rule-analysis engine paired with an AI-generated narrative layer, 33 passing tests |
+
 ## Core Skills
 
 - **Detection Engineering:** KQL custom detection rules, Advanced Hunting, MITRE ATT&CK-aligned rule design
 - **Threat Hunting & Intel:** hypothesis-driven hunting, IOC pipeline management, CVE-driven detection prioritization
 - **Identity & Cloud Security:** Entra ID Conditional Access, PIM/PIM for Groups, Managed Identities, least-privilege architecture
 - **Governance:** Microsoft Purview role design, Defender for Cloud Apps, AI/agent governance (Copilot Studio)
+- **AI Threat Modeling & Risk Management:** STRIDE + MAESTRO agentic AI threat modeling, Gartner AI TRiSM implementation, MITRE ATLAS-mapped detection engineering
 - **Tooling:** Microsoft Defender XDR, Sentinel, Rapid7 InsightIDR/InsightConnect, Nessus, Azure AI Foundry
 
 ## Note on content
